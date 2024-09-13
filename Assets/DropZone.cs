@@ -83,14 +83,6 @@ public class DropZone : MonoBehaviour,IDropHandler,IPointerEnterHandler,IPointer
     // Update is called once per frame
     void Update()
     {   
-        /*PlayArea=GameObject.Find("PlayArea");
-        numberOfCards=PlayArea.transform.childCount;
-        if(numberOfCards==7){           
-            if(!ended){
-                ended=true;
-                EndGame();    
-            }
-            
-        }*/
+        
     }
 }
