@@ -66,14 +66,7 @@ public class PlayerDeck : MonoBehaviour
 
     IEnumerator StartGame(){
         Shuffle();
-        /////LO DE DEBAJO SOBRA EN PRINCIPIO
-        for (int i = 0; i <= 4; i++)
-        {
-            yield return new WaitForSeconds(1);
-
-            //Instantiate(CardToHand,transform.position,transform.rotation);
-        }
-        /////
+        
     }
     public void Shuffle(){
         //Debug.Log(String.Format("bbbb{0}",Deck[0].cardName));
